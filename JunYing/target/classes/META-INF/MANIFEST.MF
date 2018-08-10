@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: JunYing
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: cn.zz.junying
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/JunYing/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

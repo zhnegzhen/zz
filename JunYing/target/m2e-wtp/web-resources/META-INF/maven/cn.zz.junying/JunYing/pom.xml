@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.zz.junying</groupId>
+  <artifactId>JunYing</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <!--修改jdk版本及编码  -->
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+	
+	<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+<version>1.4.0.RELEASE</version>
+  </parent> 
+  <dependencies>
+  
+  <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  <!-- 对JDBC数据库的支持 -->
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+<!-- mysql jdbc驱动 -->
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<scope>runtime</scope>
+</dependency>
+<!-- 面向切面编程的支持，包括spring-aop和AspectJ -->
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-aop</artifactId>
+</dependency>
+<!-- SpringBoot Test单元测试 -->
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-test</artifactId>
+<scope>test</scope>
+</dependency>
+<!-- spring boot整合mybatis -->
+<dependency>
+<groupId>org.mybatis.spring.boot</groupId>
+<artifactId>mybatis-spring-boot-starter</artifactId>
+<version>1.1.1</version>
+</dependency>
+
+  </dependencies> 
+
+</project>
